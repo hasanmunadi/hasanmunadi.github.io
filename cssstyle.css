@@ -1,0 +1,58 @@
+body{
+	background-image: url(sky.jpg);
+	background-size: 1700px;
+}
+.navbar{
+	background-color: bisque;
+	font-family: Arial;
+}
+.jumbotron{
+	padding: 6rem;
+	fill-opacity: unset;
+	font-family: impact;
+}
+
+.tulisan_login{
+	text-align: center;
+	font-family: impact;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 400px;
+	height: 500px;
+	background: bisque;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: rgb(35, 184, 230);
+	color: rgb(36, 33, 33);
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
